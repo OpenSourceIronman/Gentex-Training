@@ -1,0 +1,19 @@
+// Single Line Comment
+
+/********
+*
+* $ FILENAME:
+* $ DESCRIPTION:
+* $ 
+/********
+
+print("\tHello World\n") 
+
+int i = 0
+real j = 1.1
+bool isEmpty = true
+string k = "Free World"
+
+
+print(" i is " i " an interger\n")
+
