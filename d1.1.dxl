@@ -2,9 +2,9 @@
 
 /********
 *
-* $ FILENAME:
-* $ DESCRIPTION:
-* $ 
+* $ FILENAME: d1.1.dxl
+* $ DESCRIPTION: First script by Blaze Sanders
+* $ https://thecloudstrap.com/doors-dxl-tutorial-part-2/
 /********
 
 print("\tHello World\n") 
@@ -16,4 +16,6 @@ string k = "Free World"
 
 
 print(" i is " i " an interger\n")
+
+
 
