@@ -1,21 +1,51 @@
 // Single Line Comment
 
 /********
-*
-* $ FILENAME: d1.1.dxl
-* $ DESCRIPTION: First script by Blaze Sanders
-* $ https://thecloudstrap.com/doors-dxl-tutorial-part-2/
+ *
+ * $ FILENAME: d1.1.dxl
+ * $ DESCRIPTION: First DOORS DXL script by Blaze Sanders
+ *
+ * https://www.ibm.com/docs/en/ermd/9.7.0?topic=roadmap-license-options
+ * https://www.ibm.com/products/requirements-management/pricing
+ *
+ * https://www.ibm.com/docs/en/ermd/9.7.0?topic=doors-web-access-overview
+ * https://www.ibm.com/docs/en/ermd/9.7.0?topic=server-installing-windows-systems
+ * 
+ * https://www.ibm.com/docs/en/ermd/9.7.0?topic=overview-doors
+ * https://thecloudstrap.com/doors-dxl-tutorial-part-2/
+ * https://www.ibm.com/docs/en/ermd/9.7.0?topic=traceability-analyzing-links-using-explorer
+ *
+ * #!/usr/bin/env dxl
 /********
 
 print("\tHello World\n") 
 
-int i = 0
-real j = 1.1
+int c = 0
+real j = 42.1
+char = "X"
 bool isEmpty = true
 string k = "Free World"
+//void function return type
 
+print("c = " c ", and is an interger.\n")
 
-print(" i is " i " an interger\n")
+c++ 
+print("c = " c " after ++.") 
+c--
+print("c = " c " afer --.") 
 
+if(c == 0){
+    print("Math works!\n")
+}
+else{
+    print("Sorry mate")
+}
 
+// Modulo
+c = 42
+intResult = c % 5
+realResult = j % 5 
+
+print("42 % 5 = " intResult)
+print("42.1 % 5 = " realResult)
 
