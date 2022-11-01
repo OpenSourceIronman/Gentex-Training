@@ -5,3 +5,4 @@ See https://www.ibm.com/docs/en/ermd/9.7.0?topic=function-extending-rational-doo
 The DXL Reference Manual Release 9.7 can be found in this Git repo at:
 https://github.com/OpenSourceIronman/Gentex-Training/blob/main/dxl_reference_manual.pdf
 
+DXL (DOORS® eXtension Language) is a scripting language specially developed for DOORS®. DXL is used in many parts of DOORS® to provide key features, such as file format importers and exporters, impact and traceability analysis and inter-module linking tools. DXL can also be used to develop larger add-on packages such as CASE tool interfaces and project management tools. To the end user, DXL developed applications appear as seamless extensions to the graphical user interface. This capability to extend or customize DOORS® is available to users who choose to develop their own DXL scripts.
