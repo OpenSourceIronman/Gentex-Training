@@ -20,9 +20,9 @@
 
 print("\tHello World\n") 
 
-int c = 0
+int c = 0, count = 1
 real j = 42.1
-char = "X"
+char xDotCom= "X"
 bool isEmpty = true
 string k = "Free World"
 //void function return type
@@ -37,15 +37,90 @@ print("c = " c " afer --.")
 if(c == 0){
     print("Math works!\n")
 }
+else if(c == -1){
+    print("THIS SHOULD NEVER HAPPEN!")
+    // Terminate execution of script
+    halt
+}
 else{
     print("Sorry mate")
 }
 
 // Modulo
 c = 42
+int mask = 8
 intResult = c % 5
 realResult = j % 5 
 
 print("42 % 5 = " intResult)
 print("42.1 % 5 = " realResult)
+
+
+// Bitwise AND
+if(c & mask == 8){
+    print("Bitwise AND worked")
+}
+
+
+// Bitwise OR
+if(c | mask == 42){
+    print("Bitwise OR worked")
+}
+
+
+// Bitwise NOT
+bitNotResult = ~mask
+print("Bitwise NOT using 16, 32, or 64 bits? " bitNotResult)
+
+
+
+if(!islower(xDotCom)){
+    print("\n\n X is not lowercase \t")
+}
+
+if(isalpha(xDotCom)_{
+    print("X is an alpha character a to z or A to Z \t")
+    // isdigit() - 0 to 9
+    // issdigit() - HEX digits 0 to 9 and A to F and a to F
+}
+
+
+for i in 65:90 by 1 do{
+    print(charof(i "\t"))
+}
+
+
+for(i=0; i<10; i++){
+    sum += i 
+    print(sum)
+    if(sum > 5) break
+}
+
+
+bool isPrime(int num){
+    foundPrime = false
+
+    //TODO Fast prime search    
+
+    return foundPrime
+}
+
+
+void myPrint(string str){
+    //TODO print(str.toupper)
+    //TODO char c = str[0] add for loop and add or subtract 32 (upper / lower offset)
+}
+
+// Pass By Reference
+
+void byRefTest(int k, int &w){
+    k = k + 100
+    w = w + 200
+}
+
+
+int k = 0, w = 150
+print("BEFORE k = " k "\t" "w = " w)
+byRefTest(k, w)
+print("AFTER k = " k "\t" "w = " w)
 
