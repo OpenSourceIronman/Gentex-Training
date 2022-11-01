@@ -1,1 +1,7 @@
-Learn DXL scripting language for Rational DOORS requirements softwwar
+# IBM® Engineering Requirements Management DOORS® (DOORS) eXtension Language (DXL) is a scrupting language to automate DOORS.
+
+See https://www.ibm.com/docs/en/ermd/9.7.0?topic=function-extending-rational-doors-dxl
+
+The DXL Reference Manual Release 9.7 can be found in this Git repo at:
+https://github.com/OpenSourceIronman/Gentex-Training/blob/main/dxl_reference_manual.pdf
+
