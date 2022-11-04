@@ -20,15 +20,30 @@
  * #!/usr/bin/env dxl
 /********
 
+// TODO Read page 18 to 22, 26, and ??? of manual
+// TODO Read page 39 for checkDXL functions
+
+//TODO module Debug
+#include <Debug.dxl>
+
+
 print("\tHello World\n") 
 
 int c = 0, count = 1
+int binaryCount = 0b1011
+int hexCount = 0x2F
 real j = 42.1
 char xDotCom= "X"
 bool isEmpty = true
 string k = "Free World"
-//void function return type
+Object testObj = null
 
+if (null obj){
+    ack "This object is null"
+}
+
+//void function return type
+// '\ddd' is a bit pattern
 print("c = " c ", and is an interger.\n")
 
 c++ 
@@ -93,7 +108,7 @@ for i in 65:90 by 1 do{
 
 
 for(i=0; i<10; i++){
-    sum += i 
+    sum += sqrt(i) 
     print(sum)
     if(sum > 5) break
 }
@@ -120,15 +135,29 @@ void byRefTest(int k, int &w){
     w = w + 200
 }
 
+int jj = random 10      // Random from 0 to 10???   TODO
+obj = (Object jj)       // Cast interger to an Object type 
+
 
 int k = 0, w = 150
 print("BEFORE k = " k "\t" "w = " w)
 byRefTest(k, w)
 print("AFTER k = " k "\t" "w = " w)
 
+bool aa = true
+bool bb = truw
+int i = 0
+while(aa and bb){
+    print(i "\n")
+    if(i > 20){
+        bb = false
+    }
+    i = i + 1
+}
+
 
 // Static Array
-int array[5] = {0, 2, 4, 6, 8}
+int array[5] = {0, 2, 4, 6, 8}   // {} might not be valid??? TODO
 int i
 
 for i in 0 : (sizeof(array)-1) do{
@@ -170,8 +199,8 @@ for(x=0; x<3; x++){
     }
 }
 
-
-print()
+sort(oneD)
+print(oneD)
 
 
 delete(oneD)
@@ -195,3 +224,10 @@ string badString = "Happy Birthday       "
 
 string goodString = trimTrailingSpaceCharacter(badString)
 print("Trimmed string = " goodString "!\n")
+
+
+// Run DXL script for # of cycles
+pragma runLim, 1000000
+
+
+activateURL("www.nasa.gov")
